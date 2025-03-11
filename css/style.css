@@ -1,0 +1,115 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+header {
+    width: 100%;
+    background-color: aliceblue;
+    padding: 25px 0px;
+}
+.nav_container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 25px 0px;
+    justify-content: space-around;
+}
+.logo img {
+    width: 50px;
+}
+.nav_ul ul {
+    list-style: none;
+    display: flex;
+    width: 800px;
+    justify-content: space-between;
+}
+.nav_ul a {
+    color: black;
+    text-decoration: none;
+}
+.about_me {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info_me {
+    width: 500px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.photo_me img {
+    width: 500px;
+    border-radius: 15px;
+}
+.my_works {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0px;
+    text-align: center;
+}
+.title_text {
+    font-size: 44px;
+    font-weight: bold;
+}
+.flex_container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.elems {
+    margin-top: 50px;
+    padding: 20px 0px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid lime;
+}
+.img_elems img {
+    width: 250px;
+    border-radius: 15px;
+}
+.name_elems {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.link_elems a {
+    color: brown;
+    text-decoration: none;
+    margin-top: 10px;
+}
+main {
+    background-color: black;
+    color: white;
+}
+.form {
+    width: 1000px;
+    background-color: gray;
+    border-radius: 30px;
+    margin: 0 auto;
+    text-align: center;    
+}
+.text_form {
+    color: black;
+}
+.input_form input {
+    margin: 20px 0px;
+    width: 300px;
+    height: 50px;
+    border: 0px;
+    padding-left: 10px;
+    background-color: white;
+}
